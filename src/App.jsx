@@ -2,7 +2,7 @@ import './App.css'
 import Header from "./components/Header.jsx";
 import Banner from "./components/banner.jsx";
 import About from "./components/About.jsx";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route,HashRouter } from 'react-router-dom';
 import Skills from "./components/Skills.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import Contact from "./components/Contact.jsx";
@@ -15,21 +15,21 @@ function Conatct() {
 function App() {
   return (
     <>
-        <BrowserRouter>
+        <HashRouter>
             <div className="Main-App">
             <Header />
             </div>
             <div className="page-body">
 
             <Routes>
-                <Route path='/home' element={<Banner />} />
+                <Route path='/' element={<Banner />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/portfolio' element={<Portfolio />} />
                 <Route path='/contact' element={<Contact />}/>
                 <Route path='/skill' element={<Skills />} />
             </Routes>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     </>
   )
 }
