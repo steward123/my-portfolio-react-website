@@ -23,7 +23,7 @@ const About=()=>{
                           <h4 className="underline">Read more about my skills...</h4>
                           <div className="items-end justify-end flex">
                           <button className="px-3 py-2 bg-orange-500 rounded-full shadow-md text-white hover:bg-lime-300">
-                              <a href="/skill">
+                              <a href="/my-portfolio-react-website/#/skill">
                                   <i class='fas fa-arrow-right'></i>
                               </a>
                           </button>

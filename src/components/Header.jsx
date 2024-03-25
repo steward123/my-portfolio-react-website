@@ -31,6 +31,10 @@ const Header = ()=>{
             id:5
         }
     ]);
+    const [bannerLink,setBannerLink] = useState([{
+        link:"/",
+        id:0
+    }]);
     const[downbutton, setDownbutton]=useState([
         {
             title:"Resume",

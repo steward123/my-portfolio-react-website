@@ -50,7 +50,7 @@ const Skills = () =>{
                         <h4 className="underline px-3 py-5">Learn more about my awesome Projects!...</h4>
                         <div className="items-end justify-end flex">
                             <button className="px-3 py-2 bg-orange-500 rounded-full shadow-md text-white hover:bg-lime-300">
-                                <a href="/portfolio">
+                                <a href="/my-portfolio-react-website/#/portfolio">
                                     <i className='fas fa-arrow-right'></i>
                                 </a>
                             </button>
