@@ -57,7 +57,7 @@ const Banner=()=>{
                             </a>
                         </div>
                         <button className="px-3 py-2 bg-orange-500 rounded-full shadow-md text-white">
-                            <a href="/contact">Contact Me!</a>
+                            <a href="/my-portfolio-react-website/#/contact">Contact Me!</a>
                         </button>
                     </div>
                 </div>
