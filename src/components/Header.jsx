@@ -49,7 +49,7 @@ const Header = ()=>{
               <div>
                   {/*brand logo*/}
                   <button className="bg-lime-300 px-2 py-2 rounded-full shadow-md">
-                      <a href="/">
+                      <a href="/home">
                         <h1 className="text-2xl font-bold text-white">{logo}</h1>
                       </a>
                   </button>
