@@ -4,7 +4,9 @@ import Typed from "typed.js";
 import {useEffect, useRef} from "react";
 const Banner=()=>{
     const githubUrl = "https://github.com/steward123";
-    const linkedInUrl = "https://www.linkedin.com/in/soumit-mondal-2a958117b";
+    //old linkedIn-url
+    //const linkedInUrl = "https://www.linkedin.com/in/soumit-mondal-2a958117b";
+    const linkedInUrl = "https://www.linkedin.com/in/soumit-mondal/";
     const leetCodeUrl = "https://leetcode.com/kumarsoumit6/";
     const hackerRankurl = "https://www.hackerrank.com/profile/kumarsoumit6";
     const facebookUrl = "https://www.facebook.com/soumit.mondal.188/";
