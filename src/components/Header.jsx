@@ -1,7 +1,7 @@
 import {useState} from "react";
 import {Link} from "react-router-dom";
 import navBackground from "../assets/gradients.jpg";
-import resume from "../assets/Resume-soumit-mondal.pdf";
+import resume from "../assets/Resume-Soumit-Mondal.pdf";
 const Header = ()=>{
     const [logo, setLogo] = useState("SM");
     const[menuLinks,setmenuLinks] = useState([

@@ -2,7 +2,7 @@ import springIcon from "../assets/spring-3.svg";
 import dotnetIcon from "../assets/microsoft-dot-net-icon.svg";
 import tiIcon from "../assets/texas-instruments-1.svg";
 import mIcon from "../assets/matlab.svg";
-import resume from "../assets/Resume-soumit-mondal.pdf";
+import resume from "../assets/Resume-Soumit-Mondal.pdf";
 const Portfolio = ()=>{
     return(
         <>
