@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base:'/my-portfolio-react-website/',
+  server:{
+    port:2587
+  },
   build:{
     outDir:"./docs"
   }

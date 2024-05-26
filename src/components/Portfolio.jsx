@@ -2,7 +2,7 @@ import springIcon from "../assets/spring-3.svg";
 import dotnetIcon from "../assets/microsoft-dot-net-icon.svg";
 import tiIcon from "../assets/texas-instruments-1.svg";
 import mIcon from "../assets/matlab.svg";
-import resume from "../assets/Resume-Soumit-Mondal.pdf";
+{/*import resume from "../assets/Resume-Soumit-Mondal.pdf"; */}
 const Portfolio = ()=>{
     return(
         <>
@@ -86,7 +86,8 @@ const Portfolio = ()=>{
                     </div>
                     <div className="flex items-end justify-end">
                         <button className="px-3 py-2 bg-orange-500 rounded-full shadow-md text-white hover:bg-lime-300">
-                            <a href={resume} target="_blank" rel="noopener noreferrer">
+                            {/*<a href={resume} target="_blank" rel="noopener noreferrer">*/}
+                            <a href="/my-portfolio-react-website/#/contact">
                                 <i className='fas fa-arrow-right'></i>
                             </a>
                         </button>
