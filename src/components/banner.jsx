@@ -40,7 +40,7 @@ const Banner=()=>{
                         <h1 className="text-4xl font-bold">Soumit Kumar Mondal</h1>
                         <h2 className="text-xl">And I Am A <span className="underline font-bold" ref={el}></span>
                         </h2>
-                        <p className="">I'm Soumit a full-stack web developer having an experience of 2.5 years in
+                        <p className="">I'm Soumit a full-stack web developer having an experience of 3 years in
                             designing and
                             developing solution that is user-friendly and more economical to use.</p>
                         <div className="icons-container flex space-x-5">
