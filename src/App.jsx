@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route,HashRouter } from 'react-router-dom';
 import Skills from "./components/Skills.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import Contact from "./components/Contact.jsx";
+import Certifications from "./components/Certifications.jsx";
 import bannerBackground from "./assets/backgroound1.jpg";
 
 function Conatct() {
@@ -27,6 +28,7 @@ function App() {
                 <Route path='/portfolio' element={<Portfolio />} />
                 <Route path='/contact' element={<Contact />}/>
                 <Route path='/skill' element={<Skills />} />
+                <Route path='/certifications' element={<Certifications />} />
             </Routes>
             </div>
         </HashRouter>

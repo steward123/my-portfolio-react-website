@@ -26,9 +26,14 @@ const Header = ()=>{
             id:4
         },
         {
+            title:"certifications",
+            link:"/certifications",
+            id:5
+        },
+        {
             title:"Contact",
             link:"/contact",
-            id:5
+            id:6
         }
     ]);
     const [bannerLink,setBannerLink] = useState([{
@@ -39,7 +44,7 @@ const Header = ()=>{
         {
             title:"Resume",
             link:resume,
-            id:6
+            id:7
         }
     ]);
   return (
