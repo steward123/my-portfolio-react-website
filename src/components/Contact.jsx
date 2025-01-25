@@ -11,8 +11,8 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Contact =()=>{
     // variables declartion
-    const [name,setName] = useState('');
-    const [email,setEmail] = useState('');
+    const [Name,setName] = useState('');
+    const [Email,setEmail] = useState('');
     const [message,setMessage] = useState('');
     
 const addUser = async()=>{
@@ -21,10 +21,10 @@ const addUser = async()=>{
         'content-type': 'application/json'
     };
     {/*const response = */}
-    {/*http://localhost:5225/downloadsResume*/}
-    await axios.post("https://dotnetreactwebsitebackend.azurewebsites.net/downloadsResume",{
-        name:name,
-        email:email,
+    {/*http://localhost:5225/downloadsResume*/} /*https://dotnetreactwebsitebackend.azurewebsites.net/downloadsResume*/
+    await axios.post("http://localhost:5387/api/resume",{
+        Name:Name,
+        Email:Email,
         message:message
     },{headers}).then((response)=>{
         {/*const url = window.URL.createObjectURL(new Blob([response.data],{type:'application/pdf'}));
@@ -34,7 +34,7 @@ const addUser = async()=>{
         document.body.appendChild(link);
     link.click() */}
 
-    if(response.data.guid_generated)
+    if(response.data.guid_generate)
         {
             toast.success("Request For Resume download is Successfull!!")
             const link = document.createElement('a');
@@ -84,7 +84,7 @@ const addUser = async()=>{
                               <span className="text-gray-700">Enter Your name</span>
                               <input
                                   type="text"
-                                  name="name"
+                                  name="Name"
                                   className="
 
             w-full
@@ -99,7 +99,7 @@ const addUser = async()=>{
             border
           "
                                   placeholder="Tokito Muichiro"
-                                  value={name}
+                                  value={Name}
                                   onChange={(n)=> setName(n.target.value)}
                               />
                           </label>
@@ -108,7 +108,7 @@ const addUser = async()=>{
                           <label>
                               <span className="text-gray-700">Email address</span>
                               <input
-                                  name="email"
+                                  name="Email"
                                   type="email"
                                   className="
 
@@ -125,7 +125,7 @@ const addUser = async()=>{
           "
                                   placeholder="muichiro.tokoito@example.com"
                                   required
-                                  value={email}
+                                  value={Email}
                                   onChange={(e)=> setEmail(e.target.value)}
                               />
                           </label>
