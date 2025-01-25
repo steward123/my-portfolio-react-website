@@ -21,7 +21,7 @@ const addUser = async()=>{
         'content-type': 'application/json'
     };
     {/*const response = */}
-    {/*http://localhost:5225/downloadsResume*/} /*https://dotnetreactwebsitebackend.azurewebsites.net/downloadsResume*/
+    {/*http://localhost:5225/downloadsResume*/} {/*https://dotnetreactwebsitebackend.azurewebsites.net/downloadsResume*/}
     await axios.post("http://localhost:5387/api/resume",{
         Name:Name,
         Email:Email,
